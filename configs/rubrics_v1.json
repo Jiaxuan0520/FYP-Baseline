@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "max_turns": 8,
+  "required_ready_count": 4,
+  "competencies": [
+    "communication",
+    "teamwork",
+    "problem_solving",
+    "ownership",
+    "learning_agility"
+  ],
+  "question_sets": {
+    "fixed_script": [
+      "Communication overview",
+      "Teamwork example",
+      "Problem-solving example",
+      "Ownership example",
+      "Learning-agility example",
+      "Communication follow-up",
+      "Teamwork follow-up",
+      "Closing prompt"
+    ]
+  },
+  "star_weights": {
+    "situation": 0.15,
+    "task": 0.10,
+    "action": 0.50,
+    "result": 0.25
+  }
+}

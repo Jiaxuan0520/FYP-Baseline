@@ -1,0 +1,80 @@
+{
+  "fixed_script": {
+    "brier": 0.1512444858333333,
+    "ece": 0.3711666666666666,
+    "auroc": 1.0,
+    "balanced_accuracy": 0.8333333333333333,
+    "action_accuracy": 0.48936170212765956,
+    "probe_gain": 0.0,
+    "repetition_rate": 0.0,
+    "irrelevant_probe_rate": 0.0,
+    "turns_used": 7.833333333333333,
+    "predicted_ready_rate": 0.6001833333333333,
+    "label_rate": 0.5
+  },
+  "score_only": {
+    "brier": 0.1504752775,
+    "ece": 0.3641666666666666,
+    "auroc": 1.0,
+    "balanced_accuracy": 0.8333333333333333,
+    "action_accuracy": 0.48936170212765956,
+    "probe_gain": 0.0,
+    "repetition_rate": 0.0,
+    "irrelevant_probe_rate": 0.0,
+    "turns_used": 7.833333333333333,
+    "predicted_ready_rate": 0.6150166666666667,
+    "label_rate": 0.5
+  },
+  "rule_based": {
+    "brier": 0.25410359190939635,
+    "ece": 0.08699131288319153,
+    "auroc": 0.5555555555555556,
+    "balanced_accuracy": 0.5,
+    "action_accuracy": 0.9411764705882353,
+    "probe_gain": 0.265,
+    "repetition_rate": 0.24,
+    "irrelevant_probe_rate": 0.52,
+    "turns_used": 5.666666666666667,
+    "predicted_ready_rate": 0.5869913128831915,
+    "label_rate": 0.5
+  },
+  "bct": {
+    "brier": 0.25410359190939635,
+    "ece": 0.08699131288319153,
+    "auroc": 0.5555555555555556,
+    "balanced_accuracy": 0.5,
+    "action_accuracy": 0.9411764705882353,
+    "probe_gain": 0.265,
+    "repetition_rate": 0.3076923076923077,
+    "irrelevant_probe_rate": 1.0,
+    "turns_used": 5.666666666666667,
+    "predicted_ready_rate": 0.5869913128831915,
+    "label_rate": 0.5
+  },
+  "bct_uniform_prior": {
+    "brier": 0.15021934732858494,
+    "ece": 0.3811050004044973,
+    "auroc": 1.0,
+    "balanced_accuracy": 1.0,
+    "action_accuracy": 1.0,
+    "probe_gain": 0.22291666666666665,
+    "repetition_rate": 0.16,
+    "irrelevant_probe_rate": 0.96,
+    "turns_used": 8,
+    "predicted_ready_rate": 0.4718111405190899,
+    "label_rate": 0.5
+  },
+  "bct_rule_sequencing": {
+    "brier": 0.25410359190939635,
+    "ece": 0.08699131288319153,
+    "auroc": 0.5555555555555556,
+    "balanced_accuracy": 0.5,
+    "action_accuracy": 0.9411764705882353,
+    "probe_gain": 0.265,
+    "repetition_rate": 0.12,
+    "irrelevant_probe_rate": 0.52,
+    "turns_used": 5.666666666666667,
+    "predicted_ready_rate": 0.5869913128831915,
+    "label_rate": 0.5
+  }
+}
